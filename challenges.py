@@ -7,3 +7,18 @@ print("bill = ", bill)
 print("tip = ", tip)
 print("total = ", bill + tip)
 
+
+# odd and even
+if x = 3
+
+#function to except bill
+if y == "bad":
+    print("Your tip is 0%, Sorry about the service.")
+elif y == "okay":
+    print(
+elif y ==
+    print(
+elif y ==
+    print(
+else:
+    print()
