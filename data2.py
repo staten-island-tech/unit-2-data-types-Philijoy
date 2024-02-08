@@ -20,7 +20,6 @@ print(4350%2)
 
 
 # challenge:Create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending if the service was "bad, okay, good , or great ". 
-
 service = x
 if service == 0:
     print("This service is bad")
@@ -32,10 +31,7 @@ else: (25)
 print("The service is great")
 
 
-#Challenge: Create a function that accepts an input and determines all factors of the number.
-if number == x:
-    print()
-
+#Challenge: Create a function that accepts an input and determines all factors of the number
 def all_factors(x):
     factors = x
     for i in range (1,int(x)):
@@ -49,3 +45,5 @@ function = x
 if function == x:
 else: (25)
 print("factors")
+
+
