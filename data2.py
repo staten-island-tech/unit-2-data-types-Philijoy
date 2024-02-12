@@ -1,4 +1,10 @@
 # Challenge develop a function that accepts a the user input and will tell you how many words are in that string.
+x = input("input a sentence") 
+y= x.split()
+
+words = len((x.split)())
+print("number of words: ", words)
+
 
 # tip calculator 
 bill = float(input("Enter your bill:"))
@@ -32,18 +38,27 @@ print("The service is great")
 
 
 #Challenge: Create a function that accepts an input and determines all factors of the number
-def all_factors(x):
-    factors = x
-    for i in range (1,int(x)):
-        all_factors= (int(x))(int(i))
-#finish here
-    print (int(all_factors))
-all_factors (input("give number"))
+def all_factors(x): 
+    print("The factors are: ")
+    for i in range(1, x + 1):
+        if x % i == 0:
+            print(i)
+
+number = 125
+all_factors(number)
+
 
 #Challenge: Create a function that accepts 2 arguments. Find the greatest common factor between those numbers.
-function = x
-if function == x:
-else: (25)
-print("factors")
+factor = int(input ("Give number "))
+factor1 = int(input ("Give number "))
 
+def greatest_factor(x): 
+    for i in range(1, x + 1):
+        if x % i == 0:
+            print(i)
+values = greatest_factor(factor)
+print('Factoring next #')
+values1 = greatest_factor(factor1)
+Gcf = [values, values1] 
+print(Gcf)
 
