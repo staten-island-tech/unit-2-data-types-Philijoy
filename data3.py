@@ -1,10 +1,12 @@
-def all_factors(x):
-    print("factors of x " "are:")
-    for i in range(1, x+1):
-        if x % i == 0:
-          print(i)
+def calculate_gcf(x,y):
+    while y!=0:
+         y=z
+         y=int(x)%int(x)
+         z=x
+         return z
 
-num = 25
-
-all_factors (num)
+num1 = int(input("give a number: "))
+num2 = int(input("give another number: "))
+gcf = calculate_gcf (1, 2)
+print("The greatest common factor of number 1 and 2 is: ")
 

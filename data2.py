@@ -33,17 +33,21 @@ print("The service is great")
 
 #Challenge: Create a function that accepts an input and determines all factors of the number
 def all_factors(x):
-    factors = x
-    for i in range (1,int(x)):
-        all_factors= (int(x))(int(i))
-#finish here
-    print (int(all_factors))
-all_factors (input("give number"))
+    print("factors of x " "are:")
+    for i in range(1, x+1):
+        if x % i == 0:
+          print(i)
+
+number = 25
+
+all_factors (number)
 
 #Challenge: Create a function that accepts 2 arguments. Find the greatest common factor between those numbers.
-function = x
-if function == x:
-else: (25)
-print("factors")
+number1 = int(input("give a number: "))
+number2 = int(input("give another number: "))
+gcf = calculate_gcf (number1, number2)
+print("The greatest common factor ")
 
-
+factors = []
+factors.append
+print(factors[-1])
