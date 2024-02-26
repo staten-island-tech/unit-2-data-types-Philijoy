@@ -1,10 +1,4 @@
 # Challenge develop a function that accepts a the user input and will tell you how many words are in that string.
-x = input("input a sentence") 
-y= x.split()
-
-words = len((x.split)())
-print("number of words: ", words)
-
 
 # tip calculator 
 bill = float(input("Enter your bill:"))
@@ -38,47 +32,36 @@ print("The service is great")
 
 
 #Challenge: Create a function that accepts an input and determines all factors of the number
-<<<<<<< HEAD
 def all_factors(x):
     print("factors of x " "are:")
     for i in range(1, x+1):
         if x % i == 0:
           print(i)
 
-number = 25
+number = 125
 
 all_factors (number)
 
 #Challenge: Create a function that accepts 2 arguments. Find the greatest common factor between those numbers.
-number1 = int(input("give a number: "))
-number2 = int(input("give another number: "))
-gcf = calculate_gcf (number1, number2)
-print("The greatest common factor ")
-=======
-def all_factors(x): 
-    print("The factors are: ")
-    for i in range(1, x + 1):
-        if x % i == 0:
-            print(i)
+number1 = int(input("Pick a number: "))
+number2 = int(input("Pick another number: "))
 
-number = 125
-all_factors(number)
+def GCF(number1,number2):
+    #differentiates the numbers where one is larger than the other
+    if number1 < number2:
+        smaller_number = number1
+    else:
+        smaller_number = number2
+     #keep adding one to the smaller number and record when the remainder is zero
+    for i in range(1, smaller_number + 1):
+        #divde the numbers until remainder is zero
+        if (number1 % i == 0) and (number2 % i == 0):
+          gcf = i
+    #list the gcf 
+    return gcf
 
+print("The Greatest common factor of number 1 and 2 is: ", GCF(number1, number2))
 
-#Challenge: Create a function that accepts 2 arguments. Find the greatest common factor between those numbers.
-factor = int(input ("Give number "))
-factor1 = int(input ("Give number "))
-
-def greatest_factor(x): 
-    for i in range(1, x + 1):
-        if x % i == 0:
-            print(i)
-values = greatest_factor(factor)
-print('Factoring next #')
-values1 = greatest_factor(factor1)
-Gcf = [values, values1] 
-print(Gcf)
->>>>>>> 1078eeefb3621422d2b60d0bdc9b47fdb644f3fe
 
 factors = []
 factors.append
