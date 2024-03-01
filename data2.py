@@ -57,7 +57,7 @@ def GCF(number1,number2):
         #divde the numbers until remainder is zero
         if (number1 % i == 0) and (number2 % i == 0):
           gcf = i
-    #list the gcf 
+    #list the gcf and returns function back to the caller (stores the info)
     return gcf
 
 print("The Greatest common factor of number 1 and 2 is: ", GCF(number1, number2))
